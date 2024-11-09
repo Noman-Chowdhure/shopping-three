@@ -8,6 +8,7 @@ dev{
  daisy-ui
  axios
  tanStack
+ react hot toast
 }
 ]
 

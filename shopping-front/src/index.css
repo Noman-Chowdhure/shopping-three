@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,11 +11,24 @@
     @apply border-[1px] rounded-full capitalize px-5 py-1 
 } 
 
+
+
+
 #hero
 {
     position: relative;
+ 
+    
 }
-
+.navBar
+{
+    position: absolute;
+    top: 40%;
+    left: -3%;
+    transform: translate(-50%,-50%);
+    transform: rotate(90deg);
+    z-index: 39;
+}
 #back_Home
 {
     position: absolute;
@@ -27,4 +42,13 @@
     font-weight: bolder;
     color: rgba(219, 221, 222, 0.571);
     position: absolute;
+}
+
+.title
+{
+    transform: rotate(-90deg);
+    font-size: 16vw;
+    color: rgba(83, 84, 84, 0.657);
+    text-shadow: 51px -18px 21px rgb(224, 224, 224);
+    font-weight: bolder;
 }
