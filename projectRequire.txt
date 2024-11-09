@@ -1,0 +1,21 @@
+MERN PROJECT--
+
+frontEND[
+dev{
+ react-route
+ gsap
+ tailwind
+ daisy-ui
+ axios
+ tanStack
+}
+]
+
+backEND[
+ dev{
+  express
+  cors
+  
+}
+
+]
