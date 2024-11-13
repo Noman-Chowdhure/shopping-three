@@ -14,7 +14,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="log">
-          <Link>
+          <Link to='/login'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

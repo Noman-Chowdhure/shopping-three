@@ -8,7 +8,7 @@
 
 .cusBTN
 {
-    @apply border-[1px] rounded-full capitalize px-5 py-1 
+    @apply border-[1px] rounded-full capitalize px-5 py-0 
 } 
 
 
@@ -17,7 +17,7 @@
 #hero
 {
     position: relative;
- 
+    z-index: -30;
     
 }
 .navBar
@@ -33,22 +33,26 @@
 {
     position: absolute;
     height: 100%;
-    font-size: 25vw;
+    font-size: 14vw;
     top: 50%;
-    left: 65%;
-    text-shadow: -71px 18px 17px gray;
+    left: 50%;
+    text-shadow: -71px 18px 17px rgba(128, 128, 128, 0.526);
     transform: translate(-50%,-50%);
     text-transform: uppercase;
     font-weight: bolder;
-    color: rgba(219, 221, 222, 0.571);
+    color: rgba(4, 4, 4, 0.687);
     position: absolute;
+    z-index: -10;
+}
+#title
+{  
+    font-size: 14vw;
+    text-shadow: -71px 18px 17px rgba(128, 128, 128, 0.526);
+    text-transform: uppercase;
+    font-weight: 200;
+    color: rgba(4, 4, 4, 0.687);
+    position: absolute;
+    z-index: -10;
+   
 }
 
-.title
-{
-    transform: rotate(-90deg);
-    font-size: 16vw;
-    color: rgba(83, 84, 84, 0.657);
-    text-shadow: 51px -18px 21px rgb(224, 224, 224);
-    font-weight: bolder;
-}
